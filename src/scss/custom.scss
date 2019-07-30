@@ -1,0 +1,77 @@
+/*Basic*/
+input {
+    outline: none;
+}
+/*Header*/
+.navbar_header {
+    -webkit-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+.brand_site img {
+    height: 55px;
+}
+/*Section*/
+section{
+    margin: 130px 0 0;
+}
+section .section_input,
+section .section_title{
+    width: 80%;
+    margin: 20px auto;
+}
+section .section_title .section_list .total_time{
+    border-top:3px solid black;
+    margin-top: 15px;
+    text-align: right;
+    font-weight: bold;
+    color: #00baf5;
+}
+section .section_title h2 span {
+    font-size: 12px;
+    color:red;
+}
+section .section_title .left-task {
+    float: right;
+    color: darkorange;
+}
+section .section_title .section_list .total_time span {
+    color: #005ea1;
+}
+/*Buttons*/
+.addtask_icon {
+    display: none;
+}
+.cancel_icon {
+  display: none;
+}
+/*Media Querie*/
+@media screen and (max-width: 991px) {
+  .navbar-nav {
+    display: inline;
+  }
+  .nav-item {
+    margin: 0 10px;
+    float: left;
+  }
+}
+@media screen and (max-width: 800px){
+    section .section_input,
+    section .section_title {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .input-group-prepend{
+        display: none;
+    }
+    .addtask_icon,
+    .cancel_icon {
+      display: block;
+    }
+    .addtask_text,
+    .cancel_text {
+        display: none;
+    }
+}
