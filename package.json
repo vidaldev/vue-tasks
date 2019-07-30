@@ -3,7 +3,6 @@
   "description": "Ejercicio de Vue - Task",
   "version": "1.0.0",
   "author": "Jose Vidal <josevidal1988@live.com>",
-  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
